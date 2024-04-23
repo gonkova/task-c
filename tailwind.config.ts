@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -8,6 +9,16 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: { 
+         grotesk: ["Space Grotesk", "sans-serif"],
+      },
+      colors: {
+        custom1: '#01303A',
+        custom2: '#e7f874',
+        custom3: '#394649',
+        custom4: '#FFFF00',
+        // Добавете колкото се нуждаете от цветове
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
